@@ -1,0 +1,143 @@
+.white-section {
+  background-color: #f4f9f9;
+  color : black;
+}
+
+.Logo{
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+.container-fluid nav{
+  padding: 0% 8%;
+  align-items: center;
+   font-family: 'Merriweather', serif;
+}
+.log {
+  padding-right: 5px;
+}
+.nrml {
+  margin-right: 75px;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.white-section button {
+  font-size: 18px;
+}
+.connect{
+  text-align: center;
+  padding: 3% 5% 1% 5%;
+}
+.illustration{
+  margin-top: 10px;
+  width: 100%;
+}
+.form-container {
+  background: #dae1e7;
+  width: 400px;
+  height: 500px;
+  position: relative;
+  padding: 5px;
+  margin: 6% auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+.button-box{
+  width: 226px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 10px 1px #32CD32;
+  border-radius: 30px;
+}
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 113px;
+  height: 100%;
+  background : linear-gradient(to right , #32CD32,#00FF00);
+  border-radius: 30px;
+  transition: .5s;
+}
+.social-icons{
+  text-align: center;
+
+}
+.social-icons a {
+  color: #32CD32;
+  font-size: 25px;
+  margin:auto 10px;
+}
+.social-icons a:hover {
+  color: #00FF00;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid %999;
+  outline: none;
+  background: transparent;
+}
+.btn-submit{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background : linear-gradient(to right , #32CD32,#00FF00);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.check-box{
+  margin: 30px 10px 30px 0;
+}
+.check {
+  position: relative;
+  top: 23.5px;
+}
+#Login_Form {
+  left: 60px;
+}
+#Register_Form {
+  left: 460px;
+}
+button:focus {
+    outline: none;
+}
+@media (max-width:1000px) {
+  .illustration {
+    display: none;
+  }
+  .Logo {
+    width: 100px;
+    padding-bottom: 15px;
+  }
+  .button-box{
+    width: 226px;
+
+  }
+  .toggle-btn {
+    padding: 10px 20px;
+
+  }
+}

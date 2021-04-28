@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ignite</title>
+
+  <!--- Css links --->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!---bootstrap scripts --->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/d502ad5d54.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Merriweather&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" href="Images/favicon.ico">
+<script defer  src="index.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <section class="white-section" id="Title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button onclick="Recover()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img class="Logo" src="Images/ignite-logo.png" alt="Logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
+            <li class="nav-item nrml">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item nrml">
+              <a class="nav-link" href="index.html">Questions</a>
+            </li>
+            <li class="nav-item nrml dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://hisooka0.github.io/Tindog/">About Us</a>
+                <a class="dropdown-item" href="#Contact">Contact Us</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="report.html">Report</a>
+              </div>
+            </li>
+            <li class="nav-item log">
+              <a class="nav-link" href="login.html"><button type="button" class="btn btn-success">Register</button></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="login.html"><button type="button" class="btn jump btn-outline-success ">Sign In</button></a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </section>
+
+  <section class="colored-section">
+    <div id="coll" class="container-fluid">
+      <div class="row">
+        <div class="course-column col-lg-3 col-md-6">
+          <div class="card ">
+            <div class="card-header">
+              <!--<h3>Algorithmes</h3> -->
+
+              <img class="courses-img" src="Images\algo-background.png" alt="">
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+                  <p>Introduction</p>
+                </li>
+                <li>
+                  <p>Structure</p>
+                </li>
+                <li>
+                  <p>Basics</p>
+                </li>
+              </ul>
+
+              <button class="btn btn-lg btn-success btn-block" type="button">More</button>
+            </div>
+          </div>
+        </div>
+        <div class="course-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <!--<h3>C Language</h3>-->
+              <img class="courses-img" src="Images\c-background.png" alt="">
+            </div>
+            <div class="card-body">
+
+              <ul>
+                <li>
+                  <p>Introduction</p>
+                </li>
+                <li>
+                  <p>Structure</p>
+                </li>
+                <li>
+                  <p>Basics</p>
+                </li>
+              </ul>
+              <button class="btn btn-lg btn-success btn-block" type="button">More</button>
+            </div>
+          </div>
+        </div>
+        <div class="course-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <!--<h3>Assembly Language</h3>-->
+              <img class="courses-img" src="Images\asm-background.png" alt="">
+            </div>
+            <div class="card-body">
+
+              <ul>
+                <li>
+                  <p>Introduction</p>
+                </li>
+                <li>
+                  <p>Structure</p>
+                </li>
+                <li>
+                  <p>Basics</p>
+                </li>
+              </ul>
+              <button class="btn btn-lg btn-success btn-block" type="button">More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <!--<h3>Web Development</h3>-->
+              <img class="courses-img" src="Images\webdv.png" alt="">
+            </div>
+            <div class="card-body">
+
+              <ul>
+                <li>
+                  <p>Introduction</p>
+                </li>
+                <li>
+                  <p>Front-end</p>
+                </li>
+                <li>
+                  <p>Back-end</p>
+                </li>
+              </ul>
+              <button class="btn btn-lg btn-success  btn-block" type="button">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="description">
+        <div class="container-fluid ">
+          <p class="dedicace">Ignite is a platform created and designed by students from Agadir</p>
+          <div class="row">
+            <div class="col-lg-4">
+              <i class="fas fa-code"></i>
+              <a href="https://hisooka0.github.io/Edev.io/"><h5>Oussama Eddaoui</h5></a>
+
+            </div>
+            <div class="col-lg-4 ">
+              <i class="fas fa-database"></i>
+              <a href="#"><h5>Abdelhadi Ahram</h5></a>
+            </div>
+            <div class="col-lg-4">
+              <i class="fas fa-magic"></i>
+              <a href="https://hisooka0.github.io/AHDesign/"><h5>Younes Ahddoune</h5></a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </section>
+  <section id="Contact" class="white-section">
+    <footer>
+      <div class="container-fluid">
+        <p>© Ignite 2021. All rights reserved.</p>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </footer>
+  </section>
+
+</body>
+
+</html>
